@@ -12,7 +12,7 @@ setup(
     description="GUI application is used get price alert for amazon and flipkart through email-id",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/nvakhilnair/",
+    url="https://github.com/nvakhilnair/Price-Alert",
     author="Akhil",
     author_email="nvakhilnair@gmail.com",
     license="MIT",
