@@ -7,7 +7,7 @@ def readme():
 
 
 setup(
-    name="covid123",
+    name="price_alert",
     version="1.0.0",
     description="GUI application is used get price alert for amazon and flipkart through email-id",
     long_description=readme(),
@@ -21,8 +21,8 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=[],
+    install_requires=["PyQt4>=4.11.4","requests>=2.22.0","urllib3>=1.25.9","bs4>=0.0.1"],
+    scripts=["price_alert.py"],
+    package_data={'data': ['logo.png','icon.ico']},
     include_package_data=True,
-    install_requires=["PyQt4>=4.11.4"],
-    entry_points={},
 )
